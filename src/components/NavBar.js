@@ -19,7 +19,7 @@ import React from 'react';
 import { Route, Switch, useHistory } from 'react-router';
 import GettingStartedPage from './GettingStartedPage';
 import HomePage from './HomePage';
-import LisencePage from './LisencePage';
+import LicencePage from './LicensePage';
 
 const drawerWidth = 240;
 
@@ -196,7 +196,7 @@ export default function NavBar() {
 						<GettingStartedPage />
 					</Route>
 					<Route path="/license" exact>
-						<LisencePage />
+						<LicencePage />
 					</Route>
 				</Switch>
 			</main>
