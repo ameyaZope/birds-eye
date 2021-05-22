@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/birds-eye/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/birds-eye/static/js/main.8df6b6e0.chunk.js",
+    "main.js.map": "/birds-eye/static/js/main.8df6b6e0.chunk.js.map",
+    "runtime-main.js": "/birds-eye/static/js/runtime-main.627a7141.js",
+    "runtime-main.js.map": "/birds-eye/static/js/runtime-main.627a7141.js.map",
+    "static/js/2.d17b616b.chunk.js": "/birds-eye/static/js/2.d17b616b.chunk.js",
+    "static/js/2.d17b616b.chunk.js.map": "/birds-eye/static/js/2.d17b616b.chunk.js.map",
+    "static/js/3.0b184e45.chunk.js": "/birds-eye/static/js/3.0b184e45.chunk.js",
+    "static/js/3.0b184e45.chunk.js.map": "/birds-eye/static/js/3.0b184e45.chunk.js.map",
+    "index.html": "/birds-eye/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/birds-eye/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d17b616b.chunk.js.LICENSE.txt": "/birds-eye/static/js/2.d17b616b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/birds-eye/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.627a7141.js",
+    "static/js/2.d17b616b.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.8df6b6e0.chunk.js"
+  ]
+}
