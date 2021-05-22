@@ -17,6 +17,11 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import clsx from 'clsx';
 import React from 'react';
 import { Route, Switch, useHistory } from 'react-router';
+import {
+	GETTING_STARTED_PAGE_URL,
+	HOME_PAGE_URL,
+	LICENSE_PAGE_URL,
+} from '../constants/RoutePaths';
 import GettingStartedPage from './GettingStartedPage';
 import HomePage from './HomePage';
 import LicencePage from './LicensePage';
@@ -145,7 +150,7 @@ export default function NavBar() {
 						button
 						key={'Home'}
 						onClick={(e) => {
-							history.push('/');
+							history.push(HOME_PAGE_URL);
 						}}
 					>
 						<ListItemIcon>
@@ -157,7 +162,7 @@ export default function NavBar() {
 						button
 						key={'Getting Started'}
 						onClick={(e) => {
-							history.push('/getting-started');
+							history.push(GETTING_STARTED_PAGE_URL);
 						}}
 					>
 						<ListItemIcon>
@@ -172,7 +177,7 @@ export default function NavBar() {
 						button
 						key={'License'}
 						onClick={(e) => {
-							history.push('/license');
+							history.push(LICENSE_PAGE_URL);
 						}}
 					>
 						<ListItemIcon>
@@ -189,14 +194,14 @@ export default function NavBar() {
 			>
 				<div className={classes.drawerHeader} />
 				<Switch>
-					<Route path="/" exact>
-						<HomePage />
-					</Route>
-					<Route path="/getting-started" exact>
+					<Route path={GETTING_STARTED_PAGE_URL} exact>
 						<GettingStartedPage />
 					</Route>
-					<Route path="/license" exact>
+					<Route path={LICENSE_PAGE_URL} exact>
 						<LicencePage />
+					</Route>
+					<Route path={HOME_PAGE_URL}>
+						<HomePage />
 					</Route>
 				</Switch>
 			</main>
