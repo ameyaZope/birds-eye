@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/birds-eye/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/birds-eye/static/js/main.148e8646.chunk.js",
-    "main.js.map": "/birds-eye/static/js/main.148e8646.chunk.js.map",
+    "main.js": "/birds-eye/static/js/main.69ceef39.chunk.js",
+    "main.js.map": "/birds-eye/static/js/main.69ceef39.chunk.js.map",
     "runtime-main.js": "/birds-eye/static/js/runtime-main.fba96aa7.js",
     "runtime-main.js.map": "/birds-eye/static/js/runtime-main.fba96aa7.js.map",
-    "static/js/2.652b02af.chunk.js": "/birds-eye/static/js/2.652b02af.chunk.js",
-    "static/js/2.652b02af.chunk.js.map": "/birds-eye/static/js/2.652b02af.chunk.js.map",
+    "static/js/2.678ea16c.chunk.js": "/birds-eye/static/js/2.678ea16c.chunk.js",
+    "static/js/2.678ea16c.chunk.js.map": "/birds-eye/static/js/2.678ea16c.chunk.js.map",
     "static/js/3.81aef043.chunk.js": "/birds-eye/static/js/3.81aef043.chunk.js",
     "static/js/3.81aef043.chunk.js.map": "/birds-eye/static/js/3.81aef043.chunk.js.map",
     "index.html": "/birds-eye/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/birds-eye/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.652b02af.chunk.js.LICENSE.txt": "/birds-eye/static/js/2.652b02af.chunk.js.LICENSE.txt"
+    "static/js/2.678ea16c.chunk.js.LICENSE.txt": "/birds-eye/static/js/2.678ea16c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fba96aa7.js",
-    "static/js/2.652b02af.chunk.js",
+    "static/js/2.678ea16c.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.148e8646.chunk.js"
+    "static/js/main.69ceef39.chunk.js"
   ]
 }
