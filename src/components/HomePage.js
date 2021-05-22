@@ -6,6 +6,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import React from 'react';
+import SqlOnCsv from './SqlOnCsv';
 import SqlOnJson from './SqlOnJson';
 
 function TabPanel(props) {
@@ -69,11 +70,15 @@ export default function HomePage() {
 					scrollButtons="auto"
 					aria-label="scrollable auto tabs example"
 				>
-					<Tab label="Item One" {...a11yProps(0)} />
+					<Tab label="SQL ON JSON" {...a11yProps(0)} />
+					<Tab label="SQL ON CSV" {...a11yProps(1)} />
 				</Tabs>
 			</AppBar>
 			<TabPanel value={value} index={0}>
 				<SqlOnJson />
+			</TabPanel>
+			<TabPanel value={value} index={1}>
+				<SqlOnCsv />
 			</TabPanel>
 		</div>
 	);
